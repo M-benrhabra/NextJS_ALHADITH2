@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Almarai';
+  src:local('Almarai'), local('Almarai'), url('../Fonts/Almarai-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NotoKufiArabic';
+  /* src: url('../Fonts/NotoKufiArabic.ttf'); */
+  src: local('NotoKufiArabic'), local('NotoKufiArabic'), url('../Fonts/NotoKufiArabic.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AALMAGHRIBI';
+  src: url('../Fonts/AALMAGHRIBI.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aljazeera';
+  src: url('../Fonts/Aljazeera.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Almarai';
+  src: url('../Fonts/Almarai-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('../Fonts/Almarai-ExtraBold.ttf');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('../Fonts/Almarai-Light.ttf');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('../Fonts/Almarai-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font_Maghribi';
+  src: url('../Fonts/Samir_Khouaja_Maghribi.ttf');  
+  font-style: normal;
+}
+
+*[dir='rtl'] {
+  font-family: 'Almarai', sans-serif !important;
+}

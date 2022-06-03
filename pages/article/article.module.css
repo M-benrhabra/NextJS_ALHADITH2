@@ -1,0 +1,264 @@
+/* .TemplateArticleBody .page-title-second h3{
+    color: #000;
+    font-weight: 500;
+} */
+.summ{
+    margin-bottom: 4%;
+    width: 90%;
+}
+.vv{
+    width: 100%;
+}
+.articls{
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+}
+.desc {
+    width: 90%;
+}
+.articleContent{
+    width: 70% ;
+}
+/* .desc ul li::before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  } */
+.desc ul {
+    list-style-type: disc;
+}
+.desc ul li{
+    list-style-image:url('../../assets/Images/icons/ahadiths/actions-arrow-left-icon.png');
+    display: list-item;
+    text-align: -webkit-match-parent !important;
+    line-height: 1.6;
+}
+.desc ol li {
+list-style: number !important;
+display: list-item;
+}
+/* .desc ol > li > h2 {
+list-style: number !important;
+display: list-item;
+} */
+/* .desc ol > li > h2{
+    color: #129D59 !important;
+    list-style: none !important;
+} */
+
+/* .desc li::marker  {
+    color: orange;
+} */
+
+
+.desc p{
+    font-family: 'Almarai', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 1.6;
+    margin-bottom: 15px !important;
+    /* text-align: justify !important;
+    text-justify: inter-word !important; */
+}
+.desc span{
+    font-family: 'Almarai', sans-serif !important;
+    font-size: 18px;
+}
+.desc cite{
+    float: left;
+    margin-top: 10px;
+}
+.desc table {
+    text-align: center !important;
+ }
+ .desc table tr td p{
+     text-align: center !important;
+ }
+.desc h2{
+    margin-top: 0%;
+    font-size: 22px;
+    font-weight: 600;
+    color: #129D59;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.desc h2 > span {
+    margin-top: 0%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #129D59;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.desc h3{
+    margin-top: 0%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.desc h6{
+    font-family: 'AALMAGHRIBI', sans-serif !important;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.desc figure {
+    text-align: center;
+    /* padding: 5px; */
+    color: darkgray;
+}
+.desc figcaption p{
+    text-align: center;
+}
+.sectionImage{
+    /* border: 1px solid rgb(204, 201, 201); */
+    text-align: center;
+    /* padding: 5px; */
+    color: darkgray;
+    width: 90%;
+    /* margin-bottom: 2%; */
+    display: flex;
+    flex-direction: column;
+}
+.sectionImage span {
+    font-size: 13px;
+}
+.desc table{
+    border: 2px solid #129D59 !important;
+}
+.desc table tr td{
+    border: 1.5px solid #129D59 !important;
+}
+
+/*table{
+    background-color: transparent !important;
+}
+table td{
+    background-color: transparent !important;
+}
+table td p a{
+    text-decoration: underline !important;
+}*/
+
+.articleTags{
+    display: grid !important;
+    grid-gap: 0.4rem !important;
+    grid-template-columns: repeat(auto-fill, minmax(149px, 0.4fr)) !important;
+}
+.sectionTags{
+    text-align: center;
+    margin: 0%;
+}
+.badgTag{
+    margin: 0% ;
+}
+
+@media (max-width: 480px)  {
+    .TemplateArticleBody .desc{
+        width:100vw !important;
+        max-width: 85% !important;
+        /* margin: 0px 5px !important ; */
+    }
+    .articls{
+        padding: 5% !important;
+    }
+    .slider{
+        width: 100% !important;
+    }
+    .TemplateArticleBody .summ{
+        width: 100% !important;
+        /* margin-left: 5% !important; */
+    }
+    .TemplateArticleBody .badg{
+        width: 100%;
+    }
+    .desc tbody {
+        overflow-x: auto;
+        display: block;
+        width: 94vw;
+    }
+}
+@media (max-width: 360px)  {
+    .TemplateArticleBody .desc{
+        width:100vw !important;
+        max-width: 85% !important;
+        margin-left: 5px !important;
+        padding-left: 8px;
+    }
+
+}
+@media screen and (min-width: 240px) and (max-width: 540px)  {
+    .slider{
+        width: 100% !important;
+    }
+    .TemplateArticleBody .desc ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    .TemplateArticleBody .desc ::-webkit-scrollbar:horizontal {
+        height: 12px;
+    }
+    .TemplateArticleBody .desc ::-webkit-scrollbar-thumb {
+        background-color: rgba(82, 81, 81, 0.5);
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+    }
+    .TemplateArticleBody .desc ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    .TemplateArticleBody .desc{
+        width:91vw !important;
+        max-width: 95vw !important;
+        
+    }
+    /* .TemplateArticleBody .desc{
+        padding-right: 0.2rem!important;
+        padding-left: 0.5rem!important;
+    } */
+    /* .articls{
+        padding-right: 0.5rem !important;
+        padding-left: 2rem !important;
+    } */
+    .TemplateArticleBody{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .sectionImage{
+        width: 90vw !important;
+        margin: 0% !important;
+    }
+    .sectionImage Image{
+        width: 100% !important;
+    }
+
+    .articleTags{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90vw !important;
+    }
+    .TemplateArticleBody .badgTag{
+        margin-bottom: 5em !important;
+    }
+
+}
+@media screen and (min-width: 540px) and (max-width: 900px)  {
+    .articleContent{
+        width: 60% !important;
+    }
+    .slider{
+        width: 40% !important;
+    }
+}
+/* @media screen and (min-width: 760px) and (max-width: 1024px)  {
+    .slider{
+        width: 50% !important;
+    }
+
+} */
+@media screen and (max-width : 360px){
+    .summ{
+       width: 95vw !important;
+    }
+}

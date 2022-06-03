@@ -1,0 +1,194 @@
+.carouselCustom .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.carousel-control-box ol li {
+    height: 0.5em;
+    width: 0.5em;
+
+}
+
+.vertical-dots {
+    z-index: 1000;
+    right: -60px;
+    list-style: none;
+    /* display: block; */
+    position: absolute;
+    top: 10%;
+    margin-top: -10px;
+    text-align: right;
+    /* justify-content: center; */
+    padding: 1rem 0;
+    display: flex !important;
+    flex-direction: column-reverse;
+}
+
+.vertical-dots li {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    z-index: 9999;
+    flex-direction: column-reverse;
+}
+
+.vertical-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    outline: none;
+    z-index: 9999;
+    display: block;
+    width: 1.2rem;
+    height:1.2rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: transparent;
+    text-indent: -9999px;
+}
+
+.vertical-dots li button:hover,
+.vertical-dots li button:focus {
+    outline: none;
+}
+
+.vertical-dots li button:hover:before,
+.vertical-dots li button:focus:before {
+    opacity: 1;
+}
+
+.vertical-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+     z-index: 9999;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.vertical-dots li.slick-active button:before {
+    background-color: #FFFFFF;
+    opacity: 1;
+    border-radius: 100%;
+    width: 0.6rem;
+    height:0.6rem;
+}
+@media (max-width: 541px) {
+    .vertical-dots {
+        z-index: 1000;
+        right: 20px !important;
+        list-style: none;
+        display: flex !important;
+        flex-direction: row;
+        position: absolute;
+        top: 92% !important;
+        margin-right: 40%;
+        text-align: center !important;
+        /* background-color: rebeccapurple; */
+    } 
+    .vertical-dots li.slick-active button:before {
+        background-color: transparent !important;
+    }
+    .vertical-dots li button {
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+        cursor: pointer;
+        border: 0;
+        outline: none;
+        z-index: 9999;
+    }
+    .vertical-dots li.slick-active{
+        color: #129D59 !important;
+        background: #129D59 !important;
+    }
+    .vertical-dots li{
+        background: rgba(212, 205, 205, 0.719) !important;
+    }
+    .vertical-dots li button:before {
+        content: '';
+        color: transparent;
+    }
+    .vertical-dots li {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        /* z-index: 9999; */
+    }
+}
+
+@media screen and (max-width : 480px){
+    .vertical-dots {
+        z-index: 1000;
+        right: 20px !important;
+        list-style: none;
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute;
+        top: 93% !important;
+        /* margin-right: 34%; */
+        text-align: center !important;
+        /* background-color: rebeccapurple; */
+    } 
+    .vertical-dots li.slick-active button:before {
+        background-color: transparent !important;
+    }
+    .vertical-dots li button {
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+        cursor: pointer;
+        border: 0;
+        outline: none;
+        z-index: 9999;
+    }
+    .vertical-dots li.slick-active{
+        color: #129D59 !important;
+        background: #129D59 !important;
+    }
+    .vertical-dots li{
+        background: rgba(212, 205, 205, 0.719) !important;
+    }
+    .vertical-dots li button:before {
+        content: '';
+        color: transparent;
+    }
+    .vertical-dots li {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        /* z-index: 9999; */
+    }
+}
+@media screen and (max-width : 361px){
+    .vertical-dots {
+        right: 20px !important;
+        top: 92% !important;
+        /* margin-right: 34%; */
+    } 
+    
+}
+@media screen and (max-width : 330px){
+    .vertical-dots {
+        right: 20px !important;
+        top: 90% !important;
+        /* margin-right: 34%; */
+    } 
+}
+

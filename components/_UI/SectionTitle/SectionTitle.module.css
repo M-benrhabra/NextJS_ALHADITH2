@@ -1,0 +1,37 @@
+.sectionTitleBox {
+  width: 425px;
+  height: 71px;
+  margin: 0 auto;
+  position: relative;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background: #FAFAFA;
+}
+
+.sectionTitleBox:after {
+  position: absolute;
+  background: #129D59;
+  content: "";
+  width: 106px;
+  height: 8px;
+  top: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.sectionTitleBox h2 {
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .sectionTitleBox {
+    width: 80%;
+    height: 61px;
+  }
+  .sectionTitleBox h2 {
+    font-size: 20px;
+  }
+  .sectionTitleBox:after {
+    height: 6px;
+  }
+}

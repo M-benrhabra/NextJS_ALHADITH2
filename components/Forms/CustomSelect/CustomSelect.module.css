@@ -1,0 +1,11 @@
+.custom-select span {
+  margin: 0;
+}
+.label {
+  color: #aab8b9
+}
+
+.borderInputSelect{
+  border: 1px solid #FEB400;
+  border-radius: 0.25rem;
+}

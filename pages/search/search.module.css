@@ -1,0 +1,174 @@
+.SearchPage .pageTitleSecond {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+.SearchPage .pageTitleSecond h2{
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0;
+}
+.SearchPage .box-search {
+    border: none;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 0 1em;
+}
+
+.SearchPage .box-search input,
+.SearchPage .box-search input::placeholder {
+    color: #656D7A;
+}
+
+.SearchPage .box-search .icon-filter,
+.SearchPage .box-search .icon-search {
+    background-color: #656D7A;
+}
+.SearchPage .SearchBox{
+    width: 70% ;
+}
+
+.SearchPage .searchElement .boxIconSetting {
+    background-color: #157646;
+    border-radius: 8px;
+    margin-left: 1em !important;
+}
+.boxIconEpingle{
+    background-color: #157646;
+    border-radius: 8px;
+    margin-right: 1em !important;
+}
+
+.SearchPage .searchElement .boxIconSetting .icon-setting {
+    width: 42px;
+    height: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.SearchPage .searchElement .boxIconSetting .icon-setting {
+    -webkit-mask: url("../../assets/Images/icons/icon-setting.svg") no-repeat center;
+    mask: url("../../assets/Images/icons/icon-setting.svg") no-repeat center;
+}
+
+
+*[dir='ltr'] .SearchPage .PageTitleSecond .title {
+    padding: 0 !important;
+}
+.SearchPage .formSearch {
+    background-color: #e9fbf1;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: .5rem !important;
+}
+
+.paginationButtons {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+.paginationButtons li{
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 50%;
+    width: 60%;
+    justify-content: center;
+}
+
+/* .paginationButtons:hover {
+    color: rgb(255, 255, 255);
+} */
+
+.activebtn {
+    background: #29a669;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.paginationn {
+    color: #157BFF;
+    margin: 5px;
+
+}
+.prevbtn{
+    color:#FF0000;
+    background-color: #20c997;
+}
+*[dir='ltr'] .paginationButtons {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+*[dir='ltr'] .paginationn {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 480px) {
+    .formSearch .alignIte {
+        display: block !important;
+    }
+    .SearchPage{
+        width: 100vw !important;
+    }
+    .searchElement{
+        width: 90vw !important;
+    }
+    .SearchPage .searchBox{
+        width: 90vw !important;
+    }
+    .formSearch{
+        width: 85vw !important;
+    }
+    .paginationButtons {
+        width: 100% !important;
+    }
+
+    .paginationButtons li {
+        padding:0px 2px !important;
+        margin: 6px !important;
+        height: 5%;
+        width: 10%;
+    }
+    .boxIconSetting{
+        margin-bottom: 1.5% !important;  
+        padding: 1% !important;  
+    }
+    .boxIconSetting p , .boxIconSetting i {
+        zoom: 0.8;
+    }
+    .boxIconEpingle{
+        margin-bottom: 1.5% !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .paginationButtons li {
+        padding:0% 0% 0% 5% !important;
+        margin: 4px !important;
+        height: 5%;
+        width: 15% !important;
+    }
+    .paginationButtons a {
+        padding:0% 0% 0% 10% !important;
+        /* margin:0px 4px !important; */
+        height: 10%;
+        width: 25%;
+    }
+    .boxIconSetting{
+        margin-bottom: 2% !important;
+    }
+    .boxIconEpingle{
+        margin-bottom: 2% !important;
+    }
+}

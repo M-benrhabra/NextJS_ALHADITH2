@@ -1,0 +1,219 @@
+.boxSearch {
+    height: 46px;
+    padding: 0 0.5em;
+    width: 46px;
+    margin: 0 2em;
+    background: rgba(255, 255, 255, 0.21);
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+}
+.boxSearch input{
+    box-shadow: none !important;
+    background: none !important;
+    width: 100% !important;
+}
+
+.boxSearch .iconFilter,
+.boxSearch .iconSearch {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 1rem;
+}
+
+.boxSearch .iconSearch {
+    -webkit-mask: url("../../../assets/Images/icons/icon-search.svg") no-repeat center;
+    mask: url("../../../assets/Images/icons/icon-search.svg") no-repeat center;
+}
+
+.boxSearch .iconFilter {
+    -webkit-mask: url("../../../assets/Images/icons/icon-filter.svg") no-repeat center;
+    mask: url("../../../assets/Images/icons/icon-filter.svg") no-repeat center;
+}
+
+.boxSearch input {
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    background: transparent;
+}
+/*::placehold
+er {
+  color: #ffffff;
+}*/
+
+.navbar-light .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+/* .inputSearch::placeholder{
+    text-overflow: ellipsis;
+} */
+.input::placeholder{
+    font-size: 15px;
+}
+.inputSearch::placeholder{
+    overflow: hidden;
+    text-overflow:ellipsis !important;
+    font-size: 15px;
+}
+/* Style for viewports greater than 480px wide. */
+@media screen and (min-width: 1610px) and (max-width: 1922px) {
+    .iconKeyboard{
+        margin-left: -25px !important;
+    }
+    .input{
+        width: 100% !important;
+        margin-left: -15 !important;
+    }
+}
+@media (max-width: 835px) {
+    .boxSearch input{
+        box-shadow: none !important;
+        background: none !important;
+        width: 80% !important;
+    }
+}
+@media (max-width: 770px) {
+    .boxSearch input{
+        box-shadow: none !important;
+        background: none !important;
+        width: 90% !important;
+    }
+}
+@media (max-width: 480px) {
+    .container-fluid {
+        padding: 0;
+    }
+
+    .boxSearch {
+        margin: 0;
+        padding: 0px;
+        margin-bottom: 0.5rem !important;
+    }
+    .boxSearch input{
+        box-shadow: none !important;
+        background: none !important;
+        width: 95% !important;
+    }
+    .inputSearch::placeholder{
+        font-size: 13px;
+    }
+    .boxSearch .iconSearch{
+        zoom: 0.8;
+    }
+}
+
+/*
+.testme {
+    width: 100%;
+    max-width: 1030px;
+    background: #dadada;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+     margin-top: 200px;
+     margin-right: 300px
+}
+
+.conatiner {
+    margin-top: 5cm;
+    z-index: 10000;
+    margin-right: 5cm;
+    position: absolute;
+    width: 400px;
+    left: calc(50% - 500px);
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 800px;
+    padding: 0 1.5em;
+    background: rgba(255, 255, 255, 0.21);
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+    color:black;
+    border-bottom-color: #0dcaf0;
+}
+
+.keyboardRow {
+    display: flex;
+}
+
+.conatiner .keyboardButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100px;
+    font-size: 18px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: 1px solid #CECECE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.keyboardButton:focus {
+    outline: none;
+}
+
+.keyboardButton:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.keyboardButton:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.keyboardButton:active {
+    background-color: #cccccc;
+}
+
+.keyboardButton.shift-symbols {
+    flex-basis: 210px;
+}
+
+.keyboardButton.keyboardNumberButton {
+    flex-grow: 1;
+}
+
+.keyboardButton.keyboard-halfButton {
+    flex-basis: 56px;
+}
+
+.keyboardButton.keyboard-space {
+    flex-grow: 1;
+}
+
+.keyboardButton.keyboard-utilButton {
+    flex-grow: 2;
+    max-width: 55px;
+}
+
+.keyboardButton.keyboardAdditionalButton {
+    flex-basis: 128px;
+}
+
+.keyboardButton.keyboardSubmitButton, .keyboardButton.keyboard-submit-button {
+    flex-basis: 95px;
+    background-color: #129d59;
+    border-color: #fff;
+    color: #ffffff;
+}
+
+
+.keyboard-keysSet {
+    display: flex;
+    flex-grow: 1;
+}
+.keyboard .keyboard-wrapper{
+    background-color: #0a58ca;
+}
+.keyboard-row {
+    background-color: #0dcaf0;
+}
+*/
