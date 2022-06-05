@@ -204,6 +204,7 @@ const TopBar = (props) => {
                   query: { title: 'التلفزة الرقمية' },
                 }}
                 as='/AllMedia'
+                prefetch
               >
                 {'البث المباشر'}
               </Link>

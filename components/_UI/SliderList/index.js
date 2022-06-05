@@ -71,7 +71,7 @@ const SliderList = (props) => {
                     {item?.field_image.trim() ? (
                       <Image
                         src={item?.field_image}
-                        alt=''
+                        alt={rmSpaces}
                         objectFit='cover'
                         className={'ImageSlider'}
                         width='100%'
@@ -81,7 +81,7 @@ const SliderList = (props) => {
                     ) : (
                       <Image
                         src={Logos.logo_hadith_m6}
-                        alt=''
+                        alt={rmSpaces}
                         objectFit='cover'
                         className={'ImageSlider'}
                         width={170}

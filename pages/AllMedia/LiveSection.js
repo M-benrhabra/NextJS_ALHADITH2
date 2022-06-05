@@ -14,7 +14,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 
 const LiveSection = (props) => {
- /* const [dataLive, setDataLive] = useState([])
+  /* const [dataLive, setDataLive] = useState([])
   const [isLoding, setIsLoding] = useState(false)
   const urlLive = getLive()*/
   let dataLive = props.dataLive
@@ -29,7 +29,7 @@ const LiveSection = (props) => {
     slidesPerRow: 1,
   }
   var myCurrentDate = new Date().getHours()
-/*
+  /*
 
   const getDataLive = async () => {
     try {
@@ -113,7 +113,7 @@ const LiveSection = (props) => {
             <div className='d-flex flex-column justify-content-center align-items-center'>
               <Image
                 src={Icons.icon_video}
-                alt=''
+                alt='البث المباشر لمنصة محمد السادس للحديث الشريف'
                 className={'ImageSlider my-4'}
                 width='100%'
                 height='100%'
@@ -173,7 +173,7 @@ const LiveSection = (props) => {
                             loader={myLoader}
                             src={item?.field_thumbnail_live}
                             //   className='mx-2'
-                            alt=''
+                            alt={item?.title}
                             objectFit='cover'
                             width={220}
                             height={120}
@@ -192,7 +192,7 @@ const LiveSection = (props) => {
         <div className='d-flex flex-column justify-content-center align-items-center'>
           <Image
             src={Icons.icon_video}
-            alt=''
+            alt='البث المباشر لمنصة محمد السادس للحديث الشريف'
             className={'ImageSlider my-4'}
             width='100%'
             height='100%'

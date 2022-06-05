@@ -80,7 +80,7 @@ const Videos = () => {
                   <a>
                     <Image
                       src={Icons.icon_tv}
-                      alt=''
+                      alt='برامج تلفزية'
                       //width="50%"
                       // className="my-3"
                     />
@@ -98,7 +98,7 @@ const Videos = () => {
                   <a>
                     <Image
                       src={Icons.icon_media}
-                      alt=''
+                      alt='برامج اذاعية'
                       //width="55%"
                       className={styles.iconMedia}
                     />
@@ -121,7 +121,7 @@ const Videos = () => {
                   <a>
                     <Image
                       src={Icons.icon_res_sociaux}
-                      alt=''
+                      alt='برامج على الشبكات الاجتماعية'
                       // width="28%"
                       className={styles.icomRess}
                     />

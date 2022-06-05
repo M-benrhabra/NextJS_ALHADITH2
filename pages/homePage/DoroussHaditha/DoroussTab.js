@@ -141,7 +141,7 @@ const DoroussTab = ({ title, tid }) => {
             <div className='d-flex flex-column justify-content-center align-items-center'>
               <Image
                 src={Icons.icon_video}
-                alt=''
+                alt='الدروس الحديثية'
                 className={'ImageSlider my-4'}
                 width='100%'
                 height='100%'

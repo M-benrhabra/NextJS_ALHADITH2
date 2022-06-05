@@ -197,7 +197,7 @@ const RowMedia = (props) => {
                     >
                       <div className={``}>
                         <Image
-                          src={`${base_url}/${item?.field_thumbnail_video}`}
+                          src={item?.field_thumbnail_video}
                           className=''
                           objectFit='cover'
                           width={10}

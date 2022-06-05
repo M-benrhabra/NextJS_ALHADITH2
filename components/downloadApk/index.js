@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './downloadApk.module.css'
+import styles from './downloadAPK.module.css'
 import { Icons } from '../../assets'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,7 +7,11 @@ import Link from 'next/link'
 const DownloadApk = () => {
   return (
     <div className={`${styles.mobile} container`}>
-      <Image src={Icons.icon_mobil} alt='' className={styles.iconMobile} />
+      <Image
+        src={Icons.icon_mobil}
+        alt='تحميل التطبيق الخاص بمنصة محمد السادس للحديث الشريف'
+        className={styles.iconMobile}
+      />
       <div className={`container ${styles.downloadApk}`}>
         <div className={`${styles.download} p-4`}>
           <h4 className={`${styles.titleSec} `}>
@@ -18,7 +22,7 @@ const DownloadApk = () => {
               <a target='_blank' rel='noreferrer' aria-label='app hadithm6'>
                 <Image
                   src={Icons.icon_googlPlay}
-                  alt=''
+                  alt='تحميل التطبيق الخاص بمنصة محمد السادس للحديث الشريف'
                   className={styles.dwdApk}
                 />
               </a>

@@ -1,7 +1,6 @@
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { getMenu } from '../../endpoints'
-import FetchAPI from '../../API'
-import { getMenuLink, handleMenu } from '../../helpers'
+import { handleMenu } from '../../helpers'
 import axios from 'axios'
 
 export default async (req, res) => {
