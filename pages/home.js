@@ -84,7 +84,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         {/* {isIOS ? null : <ScrollButton />} */}
         <ScrollButton />
         <CarouselHome />
-        <h1></h1>
+        <h1 className='d-none'>'منصة محمد السادس للحديث الشريف'</h1>
         <SearchSection />
         <News />
         <CommanderieCroyants {...props} />
